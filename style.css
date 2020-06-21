@@ -1,0 +1,129 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+img {
+    max-width:100%;
+  }
+body {
+    /* COR DE FUNDO */
+    background-color: #FFDEAD; 
+}
+
+#logotipo {
+    /* LARGURA DO LOGOTIPO */
+    width: 1200px;
+    /* MARGEM DO LOGOTIPO */
+    margin: 20px;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px
+    margin: 20px }
+
+#banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu {
+    background-color:#D2691E;
+    margin-bottom: 20px;
+    border-top: 10px solid #F4A460;
+    border-bottom: 10px solid #F4A460;
+    padding: 10px;
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* ALINHAMENTO CENTRAL DO TEXTO */
+    text-align: center;
+}
+
+#menu a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/*pseudo seletor - para alterar a propriedade de um seletor*/
+#menu a:hover {
+    color: black;
+}  
+
+
+.principal {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */
+    grid-template-columns: repeat(3, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 20px;
+}
+
+.item {
+    /* COR DE FUNDO */
+    background-color: #F4A460;
+    /* FONTE */
+    font-family: sans-serif;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    text-decoration: none;
+    /* MARGEM */
+    margin: 20px;
+    /* COR DA FONTE */
+    color: black;
+    /* BORDA SUPERIOR */
+    border-top: 5px solid 	#CD853F;
+    /* BORDAS ARREDONDADAS */
+    border-radius: 1%;
+    /* TEXTO CENTRALIZADO */
+    text-align: center;
+        }
+    
+
+.rodape {
+    background-color: #D2691E;;
+    height: 100px;
+
+    /* HABILITAR O MODO DE LINHAS E COLUNAS */
+    display: grid;
+    /* ALINHAR NA HORIZONTAL */
+    justify-content: center;
+    /* ALINHAR NA VERTICAL */
+    align-items: center;
+}
+h1{
+    font-family:sans-serif;
+    color:red;
+    text-align: center;
+    line-height: 80px;
+    }
+h2{
+    font-family:sans-serif;
+    color:black;
+    line-height: 80px;
+    margin: 20px;
+}
+h3{
+    font-family:sans-serif;
+    color:black;
+    line-height: 80px;
+    margin: 20px;}
+.sites{
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 4 COLUNAS */
+    grid-template-columns: repeat(4, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 20px;
+        }
+    #texto{
+        text-align: center;
+    }
+       a{text-decoration:none;}
